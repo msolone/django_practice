@@ -12,5 +12,5 @@ def contact(request):
     # use basic because its a generic page (not dynamic)
     return render(request, 'personal/basic.html', {'content': ['If you would like to contact me, please email me', 'michaelsolone@gmail.com']})
 
-def blog(request):
-    return render(request, 'personal/blog.html', {'blog': ['Hello', 'this', 'is', 'my', 'blog']} )
+# def blog(request):
+#     return render(request, 'personal/blog.html', {'blog': ['Hello', 'this', 'is', 'my', 'blog']} )
