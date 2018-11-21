@@ -1,0 +1,11 @@
+{% extends "personal/header.html" %}
+
+{% block content %} 
+{% for x in blog %}
+    {% if x == 'Hello'  %}
+        <p>{{x}} World</p>
+    {% else %}
+        <p>Nope</p>
+    {% endif %}
+{% endfor %}
+{% endblock %}

@@ -19,7 +19,8 @@ from django.contrib import admin
 urlpatterns = [
     # add to end of url
     url(r'^admin/', admin.site.urls),
-    url(r'^$', include('personal.urls')),
+    url(r'^', include('personal.urls')),
+    
 
 
 ]
